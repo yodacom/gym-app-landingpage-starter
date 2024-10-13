@@ -61,3 +61,12 @@ button:focus-visisble {
 .dropShadow {
     filter: drop-shadow(-10.89px 14.523px 35,0973px rgba(29, 140, 242m 0.2) );
 }
+
+.fadeIn {
+    animation: fadeIn 300ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
