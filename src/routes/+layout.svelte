@@ -63,11 +63,10 @@
             </button>
         </div>
         <div class="flex flex-col items-center justify-center">
-            <CtAs />
+            <CtAs dark={true} />
         </div>
     </div>
 {/if}
-``
 {#if y > outerHeight}
     <div class="bg-white fixed top-0 left-0 w-full flex flex-col z-20 px-4 fadeIn">
         <Header/>
